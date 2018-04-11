@@ -161,6 +161,12 @@
       <artifactId>jqf-examples</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.jacoco</groupId>
+        <artifactId>org.jacoco.agent</artifactId>
+        <classifier>runtime</classifier>
+        <scope>test</scope>
+    </dependency>
 
   </dependencies>
 

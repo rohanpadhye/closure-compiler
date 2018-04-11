@@ -214,6 +214,11 @@
           <artifactId>jqf-maven-plugin</artifactId>
           <version>1.0-alpha-2</version>
         </plugin>
+        <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>0.8.1</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
@@ -249,6 +254,12 @@
         <groupId>edu.berkeley.cs.jqf</groupId>
         <artifactId>jqf-examples</artifactId>
         <version>1.0-alpha-2</version>
+      </dependency>
+      <dependency>
+          <groupId>org.jacoco</groupId>
+          <artifactId>org.jacoco.agent</artifactId>
+          <classifier>runtime</classifier>
+          <version>0.8.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
